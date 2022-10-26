@@ -5,5 +5,5 @@
     downloadVideo(link,fromate);
   });
   function downloadVideo(link,fromate) {
-      $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'"></iframe>');
+      $('.download-video').html('<iframe style="width:100%;height:60px;border:0;overflow:hidden;" scrolling="no" src="https://loader.to/api/button/?url='+link+'&f='+fromate+'&color=0072ec&adUrl=https://myAdurl.com"></iframe>');
   }
